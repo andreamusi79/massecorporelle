@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Bungee Shade';
+    src: url(../Fonts/Bungee_Shade/BungeeShade-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Monoton';
+    src: url(../Fonts/Monoton/Monoton-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../Fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #F8F8FF;
+	font-size: 16px;
+	color: #000000;
+	font-family: trebuchet ms, sans-serif;
+}
+#header-nav {
+	background-color: #F8F8FF;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand a {
+	color: #32CD32;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 200%;
+}
+div.navbar-brand {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 7em;
+    margin: 80px 0 50px;
+}
+.logo-right {
+    color: #D2691E;
+}
+.logoColor {
+	color: #0000FF;
+}
+p.navbar-text {
+	font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    color: #000000 !important;
+}
+/* restyling the navbar */
+#collapsable-nav {
+	margin: 180px 30px 0 0;
+  	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+}
+/* highlight behavior of the navbar */
+.navbar-default .navbar-nav .active a {
+	font-weight: bold;
+	background-color: #F8F8FF;
+	text-shadow: 0.4px 0.4px #000000;
+}
+.navbar-default .navbar-nav .active a:focus {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-default .navbar-nav li a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-default .navbar-nav li.active a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+
+element.style {
+}
+#nav-list a {
+    color: #000000;
+    text-align: center;
+    /* background-color: #F8F8FF; */
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover  {
+	background-color: #DFDFFF;
+	border-radius: 20px;
+}
+.dropdown-menu {
+	background-color: #F8F8FF;
+	border-radius: 7px;
+	border-color: #F8F8FF;
+}
+#nav-list {
+	margin-right: 0;
+}
+#nav-list li {
+	padding: 0 20px;
+}
+button.navbar-toggle.collapsed, .icon-bar {
+	border: 1px solid #000000;
+	text-align: middle;
+}
+button.navbar-toggle {
+  	margin-top: 120px;
+}
+#nav-list a {
+	color: #000000;
+	text-align: center;
+    /*background-color: #F8F8FF;*/
+}
+div#main-content.container {
+	margin-top: 100px;
+}
+.jumbotron {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 600px;
+}
+div.jumbotron.jumbotron-billboard {
+	background-color: #F8F8FF;
+	padding: 0;
+}
+.carousel .item {
+    max-height: 500px;
+}
+.carousel-inner img {
+    min-height: 500px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+}
+.jumbotron h1 {
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 35px !important;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+.carousel-inner .carousel-caption h2 {
+	font-family: 'Monoton', cursive;
+    font-size: 3em;
+    word-spacing: 3rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 0px;
+    margin: 140px 0px;
+}
+h1, h2 {
+  	font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: #000000;
+    padding: 10px 0px;
+    margin: 40px 0px;
+}
+h2 a, h1 a {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:link, h1 a:link {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:visited, h1 a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:hover, h1 a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:active, h1 a:active {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:focus, h1 a:focus {
+    color: #000000;
+    text-decoration: none;
+}
+section {
+/*	font-family:'cantarellregular', arial, sans-serif;*/
+  	font-family: 'Montserrat', sans-serif;
+	font-size: 90%;
+	/*color: #47433F;*/
+	color: #5D5D5D;
+	text-align: justify;
+	background-color: #F8F8FF;
+	margin: 0;
+	padding: 5px 0px 0px 0px;
+}
+#main-content-title {
+	margin: 5px 0 40px;
+}
+#topbutton {
+	color: #000000;
+}
+div.embed-responsive {
+    width:100%;
+    margin: 50px 0 50px 0px;
+}
+img {
+	width: 100%;
+}
+.well {
+	background-color: #DFDFFF;
+	text-align: center;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 10px;
+    margin-top: 20px; 
+}
+/* restyling the footer */
+.navbar-nav.navbar-center {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    color: #000000;
+    padding: 10px 0px;
+    margin: 80px 0px 0px 300px;
+}
+/* highlight behavior of the footer */
+.navbar-nav.navbar-center .active a {
+	font-weight: bold;
+	background-color: #F8F8FF;
+	text-shadow: 0.4px 0.4px #000000;
+}
+.navbar-nav.navbar-center .active a:focus, {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-nav.navbar-center li a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-nav.navbar-center li.active a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	div.navbar-brand {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 6em;
+    margin: 80px 0 50px;
+  }
+   .navbar-brand h1 a, h2 {
+ 	margin-left: 20px;
+  }
+/*   .jumbotron h1 {
+	font-family: 'Monoton', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #000000;
+    padding: 10px 0px;
+    margin: 150px 0px;
+  }*/
+    .navbar-nav.navbar-center {
+    margin: 80px 0px 0px 230px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  #nav-list {
+	margin-right: 80px;
+  }
+  #collapsable-nav {
+	margin: 180px 0 0px 0;
+  }
+  div.navbar-brand {
+	font-size: 4.5em;
+    margin: 80px 0 50px;
+  }
+  .jumbotron h1 {
+    font-size: 27px !important;
+  }
+  div.embed-responsive {
+    width:100%;
+    margin: 50px 0 50px 0px;
+  }
+  .jumbotron {
+    min-height: 500px;
+  }
+  .navbar-nav.navbar-center {
+    margin: 80px 0px 0px 120px;
+  }
+}
+@media (min-width: 567px) and (max-width: 767px){
+  #header-nav {
+	border: 1px solid #000000;
+	/*max-height: 200px;*/
+  }
+  .navbar{
+  	margin-bottom: 0;
+  }
+  div.navbar-brand {
+	font-size: 3.5em;
+    margin: 80px 0 10px;
+  }
+  .jumbotron h1 {
+    font-size: 25px !important;
+  }
+  .navbar-collapse {
+  	vertical-align: middle;
+  }
+  #collapsable-nav {
+/*  	font-family: 'cantarellregular', arial, sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+  	margin: 0;
+  	padding-left: 40px;
+  	border-top: 1px solid #000000;
+  }
+  button.navbar-toggle.collapsed,  button.navbar-toggle {
+  	margin: 10px 10px 10px 300px;
+  }
+  div.embed-responsive {
+    width:100%;
+    margin: 50px 0 50px 0px;
+  }
+  .jumbotron {
+    min-height: 400px;
+  }
+}
+@media (max-width: 566px){
+  #header-nav {
+	border: 1px solid #000000;
+  }
+  .navbar {
+  	margin-bottom: 0;
+  }
+ .navbar-header .navbar-brand {
+	font-size: 4em;
+    margin: 10px 0 80px;
+    line-height: 65px;
+   }
+  .navbar-collapse {
+  	vertical-align: middle;
+  }
+  #collapsable-nav {
+/*  	font-family: 'cantarellregular', arial, sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+  	margin: 0;
+  	padding-left: 40px;
+  	border-top: 1px solid #000000;
+  }
+  button.navbar-toggle.collapsed,  button.navbar-toggle {
+  	margin: 10px 10px 10px 300px;
+  }
+  div.embed-responsive {
+    width:100%;
+    margin: 50px 0 50px 0px;
+  }
+  .jumbotron h1 {
+    font-size: 20px !important;
+  }
+  .carousel-inner .carousel-caption h2 {
+	font-family: 'Monoton', cursive;
+    font-size: 1.5em;
+    word-spacing: 3rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 0px 0px;
+    margin: 10px 0px;
+  }
+  .jumbotron {
+    min-height: 300px;
+  }
+  .jumbotron-billboard .img {
+  	border-bottom: 1px solid #000000;
+  }
+  .carousel .item {
+    max-height: 200px;
+  }
+  .carousel-inner img {
+    min-height: 200px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+  }
+}
